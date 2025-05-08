@@ -7,9 +7,9 @@ setup(
     name=package_name,
     version='0.0.1',
     author='Ha Trung Nguyen',
-    packages=find_packages(exclude=['test']),
-    # packages=[package_name],
-    # package_dir={'': 'src'},
+    # packages=find_packages(exclude=['test']),
+    packages=[package_name],
+    package_dir={'': 'src'},
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
@@ -27,7 +27,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "um982_node = src.um982_node:main",
+            "um982_node = um982_py_ros.um982_node:main",
         ],
     },
 )

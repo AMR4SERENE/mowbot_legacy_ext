@@ -5,7 +5,7 @@ from rtcm_msgs.msg import Message as RTCM
 from nmea_msgs.msg import Sentence
 from sensor_msgs.msg import NavSatFix
 from sensor_msgs.msg import Imu
-from src.um982 import UM982
+from um982_py_ros.um982 import UM982
 
 class UM982Node(Node):
     def __init__(self):
