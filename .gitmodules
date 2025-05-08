@@ -1,7 +1,7 @@
-[submodule "mapviz"]
-    path = mapviz
-    url = https://github.com/swri-robotics/mapviz.git
-    branch = ros2-devel
+# [submodule "mapviz"]
+#     path = mapviz
+#     url = https://github.com/swri-robotics/mapviz.git
+#     branch = ros2-devel
 
 [submodule "micro-ROS-Agent"]
     path = micro-ROS-Agent
